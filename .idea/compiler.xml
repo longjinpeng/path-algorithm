@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="path-algorithm" />
+        <module name="dijkstra" />
+        <module name="k-shortest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dijkstra" target="1.7" />
+      <module name="k-shortest" target="1.5" />
       <module name="path-algorithm" target="1.5" />
     </bytecodeTargetLevel>
   </component>
